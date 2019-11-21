@@ -36,6 +36,7 @@ namespace WebWindows
             // are crashing when running in Debug mode (but not Release) if the very
             // first line of code in Program::Main references the WebWindow type.
             // It's unclear why.
+            // 让子弹飞一会儿
             Thread.Sleep(1);
 
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
